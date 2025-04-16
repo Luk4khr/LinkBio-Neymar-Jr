@@ -50,6 +50,7 @@ p {
 .links2 {
     display: flex;
     justify-content: center;
+    margin-left: 56px;
 }
 a {
     text-decoration: none;
@@ -98,7 +99,7 @@ h1::after {
     background: url("IMG/youtube.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 38%;
+    left: 39%;
 }
 .img1 {
     padding-left: 112px;
@@ -112,7 +113,7 @@ h1::after {
     background: url("IMG/instagram.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 38%;
+    left: 39%;
 }
 .img3::before {
     content: "";
@@ -122,7 +123,7 @@ h1::after {
     background: url("IMG/twitter.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 38%;
+    left: 39%;
 }
 .img4::before {
     content: "";
@@ -132,7 +133,7 @@ h1::after {
     background: url("IMG/facebook.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 38%;
+    left: 39%;
 }
 .img5::before {
     content: "";
@@ -142,7 +143,7 @@ h1::after {
     background: url("IMG/twitch.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 38%;
+    left: 39%;
 }
 .img2, .img4 {
     padding-left: 142px;
