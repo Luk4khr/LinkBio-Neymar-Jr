@@ -44,13 +44,8 @@ p {
     top: 83px;
 }
 .links {
-    
+    margin-left: 690px;
     margin-top: 30px;
-}
-.links2 {
-    display: flex;
-    justify-content: center;
-    margin-left: 56px;
 }
 a {
     text-decoration: none;
@@ -99,11 +94,7 @@ h1::after {
     background: url("IMG/youtube.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 39%;
-}
-.img1 {
-    padding-left: 112px;
-    margin-right: 39px;
+    left: 38%;
 }
 .img2::before {
     content: "";
@@ -113,7 +104,7 @@ h1::after {
     background: url("IMG/instagram.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 39%;
+    left: 38%;
 }
 .img3::before {
     content: "";
@@ -123,7 +114,7 @@ h1::after {
     background: url("IMG/twitter.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 39%;
+    left: 38%;
 }
 .img4::before {
     content: "";
@@ -133,7 +124,7 @@ h1::after {
     background: url("IMG/facebook.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 39%;
+    left: 38%;
 }
 .img5::before {
     content: "";
@@ -143,15 +134,13 @@ h1::after {
     background: url("IMG/twitch.png") no-repeat center center;
     background-size: 20px 20px;
     position: absolute;
-    left: 39%;
+    left: 38%;
 }
 .img2, .img4 {
-    padding-left: 142px;
-    margin-right: 50px;
+    padding-left: 190px;
 }
 .img3, .img5 {
-    padding-left: 162px;
-    margin-right: 50px;
+    padding-left: 208px;
 }
 .tabela {
     width: 100%;
