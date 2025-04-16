@@ -44,8 +44,12 @@ p {
     top: 83px;
 }
 .links {
-    margin-left: 690px;
+    
     margin-top: 30px;
+}
+.links2 {
+    display: flex;
+    justify-content: center;
 }
 a {
     text-decoration: none;
@@ -96,6 +100,10 @@ h1::after {
     position: absolute;
     left: 38%;
 }
+.img1 {
+    padding-left: 112px;
+    margin-right: 39px;
+}
 .img2::before {
     content: "";
     display: inline-block;
@@ -137,10 +145,12 @@ h1::after {
     left: 38%;
 }
 .img2, .img4 {
-    padding-left: 190px;
+    padding-left: 142px;
+    margin-right: 50px;
 }
 .img3, .img5 {
-    padding-left: 208px;
+    padding-left: 162px;
+    margin-right: 50px;
 }
 .tabela {
     width: 100%;
