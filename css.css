@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Principal {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.Principal video{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+.Principal img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 540px;
+}
+.imgney {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+.imgney::before {
+    content: "";
+    width: 214px;
+    height: 214px;
+    position: absolute;
+    background: linear-gradient(90deg, #ffdf00, #009c3b) ;
+    border-radius: 100%;
+    z-index: -1;
+    left: 842px;
+    top: 83px;
+}
+.links {
+    margin-left: 690px;
+    margin-top: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 155px;
+    border-radius: 20px;
+    background-color: #00000070;
+}
+a:hover {
+    color: black;
+    background-color: White;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+    font-size:50px;
+    margin-top: 4px;
+    text-shadow: 5px 5px 3px black;
+}
+h1::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: 596px;
+    left: 848px;
+    width: 55px;
+    height: 5px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+}
+h1::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 19px;
+    background: url("IMG/verificado.png"); 
+    background-size: 19px 18px;
+    padding-right: 2px;
+}
+.img1::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("IMG/youtube.png") no-repeat center center;
+    background-size: 20px 20px;
+    position: absolute;
+    left: 38%;
+}
+.img2::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("IMG/instagram.png") no-repeat center center;
+    background-size: 20px 20px;
+    position: absolute;
+    left: 38%;
+}
+.img3::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("IMG/twitter.png") no-repeat center center;
+    background-size: 20px 20px;
+    position: absolute;
+    left: 38%;
+}
+.img4::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("IMG/facebook.png") no-repeat center center;
+    background-size: 20px 20px;
+    position: absolute;
+    left: 38%;
+}
+.img5::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("IMG/twitch.png") no-repeat center center;
+    background-size: 20px 20px;
+    position: absolute;
+    left: 38%;
+}
+.img2, .img4 {
+    padding-left: 190px;
+}
+.img3, .img5 {
+    padding-left: 208px;
+}
+.tabela {
+    width: 100%;
+    height: 100vh;
+    background-image: url(IMG/imagem-de-fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+table {
+    margin-top: 40px ;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+tr:nth-of-type(odd) {
+    background-color: #f6fff2c4;
+    color: black
+}
+tr:nth-of-type(even) {
+    background-color: #000000c4;
+    color: white;
+}
+td {
+    padding: 30px 50px ;
+}
+th{
+    padding: 20px 10px;
+    font-size: 19px;
+    background-color: #000000d6;
+    color: white;
+}
+.img11::before {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 50px;
+    background: url("IMG/cbf.png") no-repeat center center;
+    background-size: 40px 45px;
+    position: absolute;
+    left: 16px;
+    top: 90px;
+}
+.img22::before {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 50px;
+    background: url("IMG/santos.png") no-repeat center center;
+    background-size: 40px 45px;
+    position: absolute;
+    left: 16px;
+    top: 170px;
+}
+.img33::before {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 50px;
+    background: url("IMG/barcelona.png") no-repeat center center;
+    background-size: 40px 45px;
+    position: absolute;
+    left: 16px;
+    top: 250px;
+}
+.img44::before {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 50px;
+    background: url("IMG/psg.png") no-repeat center center;
+    background-size: 40px 45px;
+    position: absolute;
+    left: 16px;
+    top: 335px;
+}
+.img55::before {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 50px;
+    background: url("IMG/alhilal.png") no-repeat center center;
+    background-size: 40px 45px;
+    position: absolute;
+    left: 16px;
+    top: 413px;
+}
+h2 {
+    text-align: center;
+    margin-top: 210px;
+    font-size: 74px;
+    color: #fff;
+    text-shadow: 3px 6px 1px #000000;
+}
